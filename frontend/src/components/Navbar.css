@@ -1,0 +1,27 @@
+.hover-shadow:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+  box-shadow: none;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  background-color: #270858;
+  padding: 10px;
+  color: white;
+}
+
+.cart {
+  display: flex; /* Ensure cart items are displayed in a row */
+  align-items: center; /* Center items vertically */
+  margin-left: 0px; /* Increase margin to shift it further left */
+}
+
+.auth-links {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+}
